@@ -29,11 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var nav3:UINavigationController = UINavigationController(rootViewController: consult)
         var nav4:UINavigationController = UINavigationController(rootViewController: pptable)
         
-        var oneTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Bookmarks, tag: 0)
-        var twoTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Contacts, tag: 1)
-        var threeTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Downloads, tag: 2)
-        var fourTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Favorites, tag: 3)
-        println("i am a bad boy")
+        var oneTabBarItem: UITabBarItem = UITabBarItem(title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home1"))
+        var twoTabBarItem: UITabBarItem = UITabBarItem(title: "现货", image: UIImage(named: "xianhuo"), selectedImage: UIImage(named: "xianhuo1"))
+        var threeTabBarItem: UITabBarItem = UITabBarItem(title: "资讯", image: UIImage(named: "news"), selectedImage: UIImage(named: "news1"))
+        var fourTabBarItem: UITabBarItem = UITabBarItem(title: "物性表", image: UIImage(named: "sort"), selectedImage: UIImage(named: "sort1"))
         
         homepage.tabBarItem = oneTabBarItem
         spotSupply.tabBarItem = twoTabBarItem
