@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var twoTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Contacts, tag: 1)
         var threeTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Downloads, tag: 2)
         var fourTabBarItem: UITabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Favorites, tag: 3)
+        println("i am a bad boy")
         
         homepage.tabBarItem = oneTabBarItem
         spotSupply.tabBarItem = twoTabBarItem
